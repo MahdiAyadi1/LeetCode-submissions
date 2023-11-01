@@ -1,6 +1,5 @@
 class Solution(object):
     def isValid(self, s):
-        bracket=""
         while s :
             test = True
             if "()" in s:
